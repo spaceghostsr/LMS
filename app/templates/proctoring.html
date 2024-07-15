@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Start Proctoring{% endblock %}
+
+{% block content %}
+<h1>Start Proctoring</h1>
+<form action="{{ url_for('proctoring.upload_proctoring') }}" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Upload Video</label>
+        <input type="file" class="form-control" id="file" name="file">
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+{% endblock %}

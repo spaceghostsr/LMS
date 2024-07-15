@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8c1c5;
+    color: white;
+}
+
+.navbar {
+    background-color: #c82333; /* Dark red shade */
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #c82333; /* Dark red shade */
+    color: #ffffff;
+    margin-top: auto;
+}
+
+.footer a {
+    color: #f8f9fa;
+}
+
+.footer a:hover {
+    color: #f8f9fa;
+}
+
+a {
+    color: #c82333; /* Red color scheme */
+}
+
+.footer .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+button {
+    background-color: #c82333; /* Red color scheme */
+    color: white;
+}
+
+.breadcrumb {
+    background-color: #f5c6cb; /* Light red shade */
+}
+
+.jumbotron {
+    background-color: #f1b0b7; /* Even lighter red shade */
+}
+
+.progress-bar {
+    background-color: #c82333; /* Darker red shade */
+}
+
+.card {
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.card-title {
+    color: #c82333;
+}
